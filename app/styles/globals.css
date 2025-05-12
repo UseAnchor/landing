@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --text: #e4e2dd;
+  --background: #1c4da0;
+  --background-light: #e4e2dd;
+  --primary: #e0e0e0;
+  --secondary: #a8aecc;
+  --accent: #4373c7;
+}
+
+body {
+  font-family: 'Funnel Display', sans-serif;
+  color: var(--text);
+  background: var(--background);
+}
+
+
+
+/* Utility classes for glassmorphism */
+.glass {
+  background: rgba(255,255,255,0.10);
+  backdrop-filter: blur(12px);
+  border-radius: 1rem;
+  border: 1px solid rgba(255,255,255,0.10);
+}
+
+/* Simple fade-in and slide-in CSS animations */
+@keyframes fadeInUp {
+  0% { opacity: 0; transform: translateY(40px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.8s cubic-bezier(0.4,0,0.2,1) both;
+}
+
+@keyframes slideInLeft {
+  0% { opacity: 0; transform: translateX(-40px); }
+  100% { opacity: 1; transform: translateX(0); }
+}
+.slide-in-left {
+  animation: slideInLeft 0.8s cubic-bezier(0.4,0,0.2,1) both;
+}
+
+@keyframes slideInRight {
+  0% { opacity: 0; transform: translateX(40px); }
+  100% { opacity: 1; transform: translateX(0); }
+}
+.slide-in-right {
+  animation: slideInRight 0.8s cubic-bezier(0.4,0,0.2,1) both;
+}
+
+/* Responsive helpers */
+@media (max-width: 768px) {
+  .glass {
+    border-radius: 0.75rem;
+  }
+}
