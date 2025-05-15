@@ -12,7 +12,7 @@ export default function Navbar() {
         </Link>
       </div>
       <div className="hidden md:flex items-center gap-4">
-        <a href="#cta" className="bg-accent text-text px-5 py-2 rounded-xl font-semibold shadow hover:bg-secondary transition-colors">Join the Waitlist</a>
+        <a href="https://tally.so/r/wMgxaX" className="bg-accent text-text px-5 py-2 rounded-xl font-semibold shadow hover:bg-secondary transition-colors">Join the Waitlist</a>
       </div>
       <button
         className="md:hidden flex flex-col items-center justify-center w-10 h-10 relative z-50"
