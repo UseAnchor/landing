@@ -12,9 +12,9 @@ export default function Home() {
       <Navbar />
       <main>
         <HeroSection />
-        <CaptureSection />
-        <FocusSection />
-        <StayOnTrackSection />
+        {/* <CaptureSection /> */}
+        {/* <FocusSection /> */}
+        {/* <StayOnTrackSection /> */}
         <CTASection />
       </main>
       <Footer />

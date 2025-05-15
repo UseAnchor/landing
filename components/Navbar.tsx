@@ -8,7 +8,7 @@ export default function Navbar() {
     <nav className="glass rounded-3xl sticky top-4 mx-auto mt-4 w-[95%] max-w-5xl z-50 flex items-center justify-between px-6 py-3 shadow-lg transition-all">
       <div className="flex items-center gap-2">
         <Link href="/">
-          <img src="/light.png" alt="Anchor Logo" style={{height: 36}} className="h-9 w-auto" />
+          <img src="/light.png" alt="Anchor Logo" style={{ height: 36 }} className="h-9 w-auto" />
         </Link>
       </div>
       <div className="hidden md:flex items-center gap-4">
@@ -41,7 +41,7 @@ export default function Navbar() {
         {/* Menu */}
         <div className="absolute top-16 left-4 right-4 bg-backgroundLight text-background shadow-lg rounded-3xl flex flex-col items-center py-6 fade-in-up">
           <a
-            href="#cta"
+            href="https://tally.so/r/wMgxaX"
             className="w-full text-center py-4 text-lg font-semibold hover:bg-secondary transition-colors rounded-xl"
             onClick={() => setOpen(false)}
           >
